@@ -3,6 +3,7 @@ import Cabecalho from '../Components/Cabecalho';
 import Titulo from '../Components/Titulo';
 import Botao from '../Components/Botao';
 import style from './App.module.scss';
+import SobreMim from '../Components/SobreMim';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Botao>
         Entre em contato
       </Botao>
+      <SobreMim/>
     </div>
   );
 }
