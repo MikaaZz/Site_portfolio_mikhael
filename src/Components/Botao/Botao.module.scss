@@ -1,0 +1,30 @@
+@import '../../Styles/Vars.module.scss';
+
+.botao {
+    width: 400px;
+    height: 66px;
+
+    border: none;
+
+    background-color: $corBotaoUm;
+
+    color: $corEscritaBotaoUm;
+
+    font-weight: 700;
+    font-size: 32px; ;
+
+    margin-left: 120px;
+
+    transition: all 300ms ease-in-out;
+
+    cursor: pointer;
+
+    margin-bottom:5%;
+
+    &:hover {
+        background-color: $corBotaoUmHover;
+        color: $corEscritaBotaoUmHover;
+    
+        transform: scale(1.05);
+    }
+}

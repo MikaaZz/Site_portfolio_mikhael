@@ -1,0 +1,12 @@
+// Cria função para aplicar estilos pre prontos e setados pelo programador
+// da para usar parametros para facilitar as alterações
+@mixin flexCenter($parametro , $direcao) {
+    display: flex;
+    justify-content: $parametro;
+    align-items: center;
+    flex-direction: $direcao
+}
+
+// utilizar esses parametros para flex direction é um otimo exemplo
+
+@include flexCenter(); // aqui ele esta usando a função, deve ser aplicado dentro do seletor

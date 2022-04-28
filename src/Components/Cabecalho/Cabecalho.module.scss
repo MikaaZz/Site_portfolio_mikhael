@@ -1,0 +1,27 @@
+@import '../../Styles/Vars.module.scss';
+
+.lista {
+    margin: 0px;
+    padding: 20px 220px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    li {
+        list-style-type: none;
+        padding: 0% 2%;
+        font-weight: 700;
+        font-size: 20px;
+
+        color: $primariParagraphFont--color;
+
+
+    }
+
+    .sobreMim {
+        text-decoration-line: underline;
+        color: $secundariParagraphFont--color;
+    }
+
+}
