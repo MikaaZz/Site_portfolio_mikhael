@@ -11,7 +11,7 @@ class SobreMim extends React.Component {
                 <h2>Sobre mim</h2>
                 <div className={style.containerFotoDescricao}>
                     <Foto/>
-                    <Descricao/>
+                    <Descricao/> 
                 </div>
             </div>
         )
