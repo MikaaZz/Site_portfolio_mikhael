@@ -1,0 +1,10 @@
+.imagem {
+    width: 400px;
+
+    margin: 0px 0px 30px 80px;
+
+    &::backdrop {
+        border: 10px solid #29858C;
+        box-sizing: border-box;
+    }
+}

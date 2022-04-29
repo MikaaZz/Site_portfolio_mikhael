@@ -16,12 +16,17 @@
 
         color: $primariParagraphFont--color;
 
+        transition: all 250ms ease-in-out;
+
+        cursor: pointer;
+
+        &:hover {
+            text-decoration-line: underline;
+            color: $secundariParagraphFont--color;
+        }
 
     }
 
-    .sobreMim {
-        text-decoration-line: underline;
-        color: $secundariParagraphFont--color;
-    }
+    
 
 }
